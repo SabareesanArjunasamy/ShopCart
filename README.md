@@ -18,6 +18,16 @@ A simple E-commerce website using Flask.
 4. Run the server (pipenv run python main.py)
 5. Enter localhost:5000 in the browser
 
+## Virtualenv InstrucTions ##
+1.  cd Shopping-Cart
+2.  pip install virtualenv
+3.  virtualenv venv
+4.  source venv/bin/activate
+5.  python database.py
+6.  pip install flask
+7.  python main.py
+
+
 ## Sample User ##
 Sample credentials present in existing database:
 Username - sample@example.com
